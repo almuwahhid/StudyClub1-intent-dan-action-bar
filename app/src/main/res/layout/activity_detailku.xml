@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detailku"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="almuwahhid.com.studyclub1.Detailku">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="NAMAKU"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/namaku"
+            android:text="-"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="JURUSANKU"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/jurusanku"
+            android:text="-"/>
+    </LinearLayout>
+
+</RelativeLayout>
